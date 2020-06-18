@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Calculate Cylinder Volume</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+</head>
+
+<body>
+
+	<div class="bg-calculate" style="background-image: url('images/bg-01.jpg');">
+		<div class="container-calculate">
+			<div class="wrap-calculate">
+				<form class="calculate-form validate-form">
+					<span class="calculate-form-title">
+						Volume (CFT)
+					</span>
+
+					<div class="wrap-calculate-form-radio">
+						<div class="calculate-form-radio m-r-42">
+							<input class="input-radio3" id="radio1" type="radio" name="scale" value="inch"
+								checked="checked">
+							<label class="label-radio3" for="radio1">
+								Inch
+							</label>
+						</div>
+
+						<div class="calculate-form-radio">
+							<input class="input-radio3" id="radio2" type="radio" name="scale" value="feet">
+							<label class="label-radio3" for="radio2">
+								Feet
+							</label>
+						</div>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate="Perimeter should be a number">
+						<input class="input3" type="text" name="perimeter" placeholder="Perimeter">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate="Length should be a number">
+						<input class="input3" type="text" name="length" placeholder="Length">
+						<span class="focus-input3"></span>
+					</div>
+
+					<span class="calculate-form-result"></span>
+
+					<div class="container-calculate-form-btn">
+						<button class="calculate-form-btn calculate-btn" type="button">
+							Calculate
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<!--===============================================================================================-->
+
+
+</body>
+
+</html>
